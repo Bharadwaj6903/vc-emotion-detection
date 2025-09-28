@@ -53,7 +53,8 @@ git push origin main
 
 pip install dvc
 
+pip freeze >requirements.txt 
+
 dvc init
 dvc repro
 
-pip freeze >requirements.txt 
