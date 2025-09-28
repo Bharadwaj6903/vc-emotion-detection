@@ -16,3 +16,31 @@ git commit -m "add-cookie-cutter-template"
 
 git remote add origin https://github.com/Bharadwaj6903/vc-emotion-detection.git
 git push origin main
+
+git add .
+git commit -m "added data_ingestion.py"
+
+git add .
+git commit -m "added data_preprocessing.py"
+
+git add .
+git commit -m "added feature_engineering.py"
+
+git add .
+git commit -m "added model_building.py"
+
+git add .
+git commit -m "added model_evaluation.py"
+
+
+
+git add .
+git commit -m "added params.yaml"
+
+
+git add .
+git commit -m "added dvc.yaml"
+
+pip freeze >requirements.txt   // automatically fills requirements.txt file along with versions
+
+pip install -r requirements.txt
