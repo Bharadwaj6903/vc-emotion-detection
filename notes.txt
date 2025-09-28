@@ -2,6 +2,7 @@ cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
 
 //create virtal envirinment
 python -m venv myvenv
+
 myvenv/Scripts/activate
 
 deactivate
@@ -44,3 +45,15 @@ git commit -m "added dvc.yaml"
 pip freeze >requirements.txt   // automatically fills requirements.txt file along with versions
 
 pip install -r requirements.txt
+
+git add .
+git commit -m "added requirements.txt"
+
+git push origin main
+
+pip install dvc
+
+dvc init
+dvc repro
+
+pip freeze >requirements.txt 
