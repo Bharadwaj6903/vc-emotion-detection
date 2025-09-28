@@ -1,0 +1,12 @@
+cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
+
+//create virtal envirinment
+python -m venv myvenv
+myvenv/Scripts/activate
+
+deactivate
+
+git init
+
+update git ignore file
+
