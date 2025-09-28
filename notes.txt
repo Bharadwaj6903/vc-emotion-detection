@@ -10,3 +10,9 @@ git init
 
 update git ignore file
 
+git status
+git add .
+git commit -m "add-cookie-cutter-template"
+
+git remote add origin https://github.com/Bharadwaj6903/vc-emotion-detection.git
+git push origin main
